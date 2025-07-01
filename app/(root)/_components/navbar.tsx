@@ -13,6 +13,8 @@ const Navbar = () => {
         <Link href={"/"}>
           <h1 className="text-2xl font-mono hidden md:flex">Mohirdev</h1>
         </Link>
+
+          <div className="flex items-center gap-2">
         <div className="gap-2 hidden md:flex">
           {navLinks.map((nav) => (
             <Link
@@ -24,7 +26,6 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <div className="flex items-center gap-1">
           <Mobile />
         </div>
       </div>
