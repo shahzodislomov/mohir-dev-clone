@@ -8,10 +8,10 @@ import Mobile from "./mobile";
 const Navbar = () => {
 
    return (
-    <div className="h-[10vh] backdrop-blur-sm border-b fixed z-40 inset-0 bg-background">
+    <div className="h-[10vh] backdrop-blur-sm fixed z-40 inset-0 bg-background">
       <div className="container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between">
         <Link href={"/"}>
-          <h1 className="text-2xl font-mono hidden md:flex">Mohirdev</h1>
+          <h1 className="text-2xl font-mono hidden md:flex">Wendev</h1>
         </Link>
 
           <div className="flex items-center gap-2">
